@@ -20,32 +20,32 @@ Since this is the first lab, we'll keep it simple.  You will take the code from 
     We recommend using an IDE like Eclipse that provides syntax-checking, auto-completion, and source code refactoring.  These features help you avoid errors or find them quicky.  However, if you are preparing for a technical interview, remember that you will not have these tools during the interview, so you might also want to practice writing code without them.
 
     Either way, we'll assume that you know how to compile and run Java code in your environment of choice.
-    
+
 *   When you check out the repository for this lab, you should find these files:
 
     *  CONTRIBUTING.md contains information about how you can notify us if you find a problem in a lesson.
-    
+
     *  javacs-lab01 is a directory that contains the source code for this lab.
-    
+
     *  LICENSE.md contains license information about these materials.
-    
+
     *  README.md contains the text you are reading now.
-    
+
 *   If you open `javacs-lab01`, you'll find these files:
 
-    *  bin contains compiled `class` files.  
-    
+    *  bin contains compiled `class` files.
+
     *  build.xml is an Ant file that makes it easier to compile and run the code.
-    
+
     *  lib contains the libraries you'll need (for this lab, just JUnit).
-    
+
     *  src contains the source code.
-    
+
 *   And if you navigate into `src/com/flatironschool/javacs`, you'll find the source code for this lab:
 
     *  `ListClientExample.java` contains the code from the previous README.
 
-    *  `ListClientExampleTest.java` contains a JUnit test for `ListClientExample`. 
+    *  `ListClientExampleTest.java` contains a JUnit test for `ListClientExample`.
 
 *   Review `ListClientExample` and make sure you understand what it does.  Then compile and run it.  If you use Ant, you can navigate to `javacs-lab01` and run `ant ListClientExample`.  [You can read about Ant here](https://ant.apache.org/manual/tutorial-HelloWorldWithAnt.html).
 
